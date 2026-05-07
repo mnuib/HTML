@@ -1,0 +1,17 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: rgb(68, 68, 126);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 200%;
+  margin: 40px;
+}
+p {
+  color: rgb(143, 66, 66);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 160%;
+  border: 2Px solid rgb(23, 81, 88);
+  padding: 20px;
+  margin: 50px;
+}
