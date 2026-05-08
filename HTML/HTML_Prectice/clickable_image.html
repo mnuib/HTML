@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Image Maps</h2>
+
+    <p>Click on the cup of coffee to execute a JavaScript function:</p>
+
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap1" width="400" height="379">
+
+    <map name="workmap1">
+
+        <area shape="circle" coords="337,300,44" href="https://www.w3schools.com/w3images/coffeehouse2.jpg"
+            onclick="myFunction()">
+
+    </map>
+
+    <p>Click on the Phone to execute a JavaScript function:</p>
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="workplace" usemap="#workmap2" width="400" height="379">
+
+    <map name="workmap2">
+
+        <area shape="rect" coords="290,172,333,250" href="https://www.w3schools.com/w3images/cellphone.jpg"
+            onclick="phoneFunction()">
+
+    </map>
+
+    <p>Click on the Laptop to execute a JavaScript function:</p>
+    <img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap3" width="400" height="379">
+    <map name="workmap3">
+        <area shape="rect" coords="34,44,270,350" href="https://www.w3schools.com/html/computer.htm" onclick="laptopFunction()">
+    </map>
+    <script>
+        function myFunction() {
+            alert("You clicked the coffee cup!");
+        }
+        function phoneFunction() {
+            alert("You clicked the phone!");
+        }
+        function laptopFunction(){
+            alert("You clicked the laptop!")
+        }
+    </script>
+</body>
+
+</html>
